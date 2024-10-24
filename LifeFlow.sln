@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeFlow.UI.MVC", "LifeFlow.UI.MVC\LifeFlow.UI.MVC.csproj", "{FECBE32D-144C-4BE8-9986-D86AE0D99A5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3DA8C22-7E31-4BCE-BBAE-13489211B6CE} = {F3DA8C22-7E31-4BCE-BBAE-13489211B6CE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeFlow.DATA.EF", "LifeFlow.DATA.EF\LifeFlow.DATA.EF.csproj", "{F3DA8C22-7E31-4BCE-BBAE-13489211B6CE}"
 EndProject
